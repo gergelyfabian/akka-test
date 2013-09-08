@@ -11,8 +11,4 @@ Compile the project with:
 Run the project with:
 ------------------
 
-    $ scala -cp target/akka-test-1.0-SNAPSHOT.jar hu.ebratanki.App
-
-or
-
-    $ java -cp target/akka-test-1.0-SNAPSHOT-jar-with-dependencies.jar hu.ebratanki.App
+    $ java -cp target/akka-test-1.0-SNAPSHOT-jar-with-dependencies.jar akka.Main hu.ebratanki.HelloWorld
