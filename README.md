@@ -6,7 +6,7 @@ Testing Akka.
 Compile the project with:
 ------------------
 
-    $ mvn package
+    $ mvn assembly:assembly
 
 Run the project with:
 ------------------
