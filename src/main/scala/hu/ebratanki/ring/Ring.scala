@@ -11,13 +11,7 @@ import com.typesafe.config.ConfigFactory
  */
 object Ring {
   import Element._
-  val config = ConfigFactory.parseString("""
-    akka.loglevel = "INFO"
-    akka.actor.debug {
-    receive = on
-    lifecycle = on
-    }
-    """)
+  val config = ConfigFactory.load()
 
   val system = ActorSystem("Ring", config)
   var firstElement: Option[ActorRef] = None
